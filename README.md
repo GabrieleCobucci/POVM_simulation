@@ -3,6 +3,8 @@ Whereas standard quantum measurements are projective, the most general notion of
 
 # List of the functions
 
+- genpart.mlx : This function computes the rank-vectors associated to N-outcomes measurements in dimension d.
+
 ## Depolarising noise
 
 - PVMsimulability.m : This function evaluates the critical visibility for PVM-simulability of a given POVM under depolarising noise via SDP;
