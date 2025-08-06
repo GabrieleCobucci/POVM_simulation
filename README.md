@@ -19,4 +19,4 @@ Whereas standard quantum measurements are projective, the most general notion of
 
 # References
 
-[1]: 
+[1]: G. Cobucci, R. Brinster, S. Khandelwal, H. Kampermann, Dagmar Bruß, Nikolai Wyderka and Armin Tavakoli - Maximally non-projective measurements are not always symmetric informationally complete (https://arxiv.org/abs/2508.03652)
