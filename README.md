@@ -3,8 +3,8 @@ Whereas standard quantum measurements are projective, the most general notion of
 
 # List of the branches:
 - main: README.md
-- Depolarising_noise
-- Worst-noise_case
+- Depolarising_noise: PVMsimulability.m, PVMsimulability_dual.m, most_non_proj.m
+- Worst-noise_case: PVMsimulability_worst_noise.m, PVMsimulability_worst_noise_dual.m, most_non_proj_worst_noise.m
 
 # List of the functions
 
