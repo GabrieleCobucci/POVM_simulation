@@ -1,6 +1,11 @@
 # PVM-simulation of POVMs
 Whereas standard quantum measurements are projective, the most general notion of a measurement is represented by positive operator-valued measures (POVMs). It is therefore natural to consider how accurately an experimenter with access only to projective measurements and classical processing can simulate POVMs. The most well-known class of non-projective measurements is called symmetric informationally complete (SIC). Such measurements are both ubiquitous in the broader scope of quantum information theory and known to be the most strongly non-projective measurements in qubit systems. Here, we show that beyond qubit systems, the SIC property is in general not associated with the most non-projective measurement. For this, we put forward a semidefinite programming criterion for detecting genuinely non-projective measurements. This method allows us to determine quantitative simulability thresholds for generic POVMs and to put forward a conjecture on which qutrit and ququart measurements that are most strongly non-projective.
 
+# List of the branches:
+- main: README.md
+- Depolarising_noise
+- Worst-noise_case
+
 # List of the functions
 
 - genpart.mlx : This function computes the rank-vectors associated to N-outcomes measurements in dimension d.
