@@ -5,13 +5,13 @@ Whereas standard quantum measurements are projective, the most general notion of
 
 - genpart.mlx : This function computes the rank-vectors associated to N-outcomes measurements in dimension d.
 
-## Depolarising noise
+## Branch 1: Depolarising noise
 
 - PVMsimulability.m : This function evaluates the critical visibility for PVM-simulability of a given POVM under depolarising noise via SDP;
 - PVMsimulability_dual.m : This function evaluates the critical visibility for PVM-simulability of a given POVM under depolarising noise and witness operators to detect it;
 - most_non_proj.m : This function finds the most non-projective N-outcome measurement in dimension d under depolarising noise.
 
-## "Worst-noise" case
+## Branch 2: "Worst-noise" case
 
 - PVMsimulability_worst_noise.m : This function evaluates the critical visibility for PVM-simulability of a given POVM under worst-case noise via SDP;
 - PVMsimulability_worst_noise_dual.m : This function evaluates the critical visibility for PVM-simulability of a given POVM under worst-case noise and witness operators to detect it;
