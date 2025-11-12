@@ -5,6 +5,7 @@ Whereas standard quantum measurements are projective, the most general notion of
 - main: README.md
 - Depolarising_noise: PVMsimulability.m, PVMsimulability_dual.m, most_non_proj.m
 - Worst-noise_case: PVMsimulability_worst_noise.m, PVMsimulability_worst_noise_dual.m, most_non_proj_worst_noise.m
+- Explicit_decomposition: check_decomposition.py, sic4_decomp.npy, sic5_decomp.npy
 
 # List of the functions
 
@@ -21,6 +22,12 @@ Whereas standard quantum measurements are projective, the most general notion of
 - PVMsimulability_worst_noise.m : This function evaluates the critical visibility for PVM-simulability of a given POVM under worst-case noise via SDP;
 - PVMsimulability_worst_noise_dual.m : This function evaluates the critical visibility for PVM-simulability of a given POVM under worst-case noise and witness operators to detect it;
 - most_non_proj_worst_noise.m : This function finds the most non-projective N-outcome measurement in dimension d under worst-case noise.
+
+## Branch 3: Explicit_decomposition
+
+- check_decomposition.py: This script checks whether a projective decomposition of a noisy SIC-POVM is valid;
+- sic4_decomp.npy: Explicit decomposition for noisy SIC-POVM in d = 4;
+- sic5_decomp.npy: Explicit decomposition for noisy SIC-POVM in d = 5.
 
 # References
 
